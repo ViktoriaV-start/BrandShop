@@ -1,0 +1,321 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+.line-top {
+    border: 1px solid #f8f8f8;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.headerFirst {
+    display: flex;
+    align-items: center;
+    height: 99px;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header-form {
+    display: flex;
+    align-items: stretch;
+    text-decoration: none;
+    border: 1px solid #eee;
+    margin-left: 34px;
+}
+
+.header-buttons {
+    display: flex;
+    margin-left: auto;
+}
+
+.brand {
+    padding-left: 12px;
+    font-size: 27px;
+    font-weight: 300;
+    color: rgb(34, 34, 34);
+    text-transform: uppercase;
+    line-height: 1.185;
+}
+
+.brand-D {
+    color: #f16d7f;
+    font-weight: 700;
+}
+
+.browse {
+    width: 85px;
+    height: 38px;
+    font-size: 14px;
+    color: rgb(34, 34, 34);
+    background: #f8f8f8;
+    line-height: 2.286;
+    border: none;
+}
+
+.search {
+    width: 365px;
+    font-size: 14px;
+    color: rgb(164, 164, 164);
+    line-height: 2.286;
+    padding-left: 12px;
+    border: none;
+    border-right: 1px solid #eee;
+}
+
+.icon1 {
+    width: 38px;
+}
+
+.cart {
+    background: none;
+    border: none;
+}
+
+.myAccount {
+    width: 130px;
+    height: 38px;
+    align-self: center;
+    border: none;
+    color: #ffffff;
+    background: #f16d7f;
+    font-size: 15px;
+    line-height: 2.133;
+    margin-left: 11px;
+}
+
+.navigationFirst {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.navigationFirst a {
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.857;
+}
+
+.navigationFirst a:not(:last-of-type) {
+    margin-right: 45px;
+}
+
+.navigationFirst a:hover {
+    color: #f16d7f;
+}
+
+.block1-wrapper {
+    background: #e8e8e8;
+    height: 612px;
+}
+
+.block1 {
+    padding-top: 222px;
+    height: 612px;
+    background-image: url(img/boy.jpg);
+}
+
+.block1-text {
+    position: relative;
+    padding-left: 24px;
+}
+
+.block1-text1,
+.block1-text2 {
+    display: block;
+}
+
+.block1-text::before {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 69px;
+    background: #F16D7F;
+    position: absolute;
+    left: 0;
+    top: 7px;
+    bottom: 0;
+}
+
+.block1-text1 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 0;
+}
+
+.block1-text2 {
+    color: #222222;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.block1-text3 {
+    margin-left: 9px;
+    color: #F16D7F;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+}
