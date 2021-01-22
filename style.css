@@ -229,9 +229,8 @@ body {
     align-self: center;
     border: none;
     color: #ffffff;
-    background: #f16d7f;
+    background-color: #f16d7f;
     font-size: 15px;
-    line-height: 2.133;
     margin-left: 11px;
 }
 
@@ -261,18 +260,18 @@ body {
 
 .block1-wrapper {
     background: #e8e8e8;
-    height: 612px;
 }
 
 .block1 {
-    padding-top: 222px;
-    height: 612px;
     background-image: url(img/boy.jpg);
+    overflow: hidden;
 }
 
 .block1-text {
     position: relative;
     padding-left: 24px;
+    margin-bottom: 309px;
+    margin-top: 221px;
 }
 
 .block1-text1,
@@ -318,4 +317,252 @@ body {
     font-weight: 700;
     letter-spacing: 0em;
     text-align: left;
+}
+
+.block2 {
+    display: flex;
+    margin-top: 98px;
+}
+
+.block2-left {
+    margin-right: 20px;
+}
+
+.block2-up {
+    position: relative;
+    margin-bottom: 17px;
+}
+
+.block2-down {
+    position: relative;
+}
+
+.block2-text {
+    background: #ffffff;
+    height: 82px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 26px;
+    padding-left: 18px;
+}
+
+.men {
+    width: 175px;
+}
+
+.accessory {
+    width: 225px;
+}
+
+.women {
+    width: 162px;
+}
+
+.kids {
+    width: 179px;
+}
+
+.block2-text1 {
+    font-size: 18px;
+    font-weight: 900;
+    color: rgb(34, 34, 34);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.block2-text2 {
+    font-size: 30px;
+    color: #f16d7f;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.featuredItems {
+    font-size: 30px;
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    line-height: 1.8;
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.shopForItems {
+    display: block;
+    font-size: 14px;
+    color: rgb(159, 159, 159);
+    text-align: center;
+    margin-bottom: 58px;
+}
+
+.block3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.block3-mango {
+    margin-top: 16px;
+    margin-bottom: 20px;
+    margin-left: 16px;
+}
+
+.mango-top {
+    font-size: 13px;
+    color: rgb(34, 34, 34);
+    text-transform: uppercase;
+    text-align: left;
+    padding-bottom: 16px;
+}
+
+.mango-down {
+    font-size: 16px;
+    color: rgb(241, 109, 127);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.block3-card {
+    position: relative;
+    margin-bottom: 39px;
+}
+
+.cardHover {
+    position: absolute;
+    background-color: rgba(58, 56, 56, 0.831);
+    top: 0;
+    bottom: 81px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    opacity: 1.5;
+    display: none;
+}
+
+.cardHoverCart {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    top: 98px;
+    left: 71px;
+    z-index: 2;
+    width: 122px;
+    border: 1px solid #fff;
+    padding: 5px;
+}
+
+.addToCart {
+    font-size: 13px;
+    color: #fff;
+    padding-left: 8px;
+}
+
+.block3-card:hover .cardHover,
+.block3-card:hover .cardHoverCart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block3-card:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.16);
+}
+
+.block3-form {
+    margin: 19px auto 112px auto;
+}
+
+.mango-button {
+    height: 48px;
+    width: 212px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 3.375;
+    text-align: center;
+    border: none;
+    background-color: #f16d7f;
+}
+
+.mango-button:hover,
+.myAccount:hover {
+    opacity: 0.9;
+}
+
+
+/*ЭТО ОТНОСИТСЯ К САМОМУ НИЖНЕМУ ТЕСТОВОМУ БЛОКУ, ПО ПОВОДУ НЕГО НАПИСАЛА ВОПРОС */
+
+.test-wrapper {
+    background: #e8e8e8;
+    margin-bottom: 100px;
+}
+
+.test {
+    background-image: url(img/boy.jpg);
+    border: 1px solid transparent;
+}
+
+.test-text {
+    position: relative;
+    padding-left: 24px;
+    margin-bottom: 309px;
+    margin-top: 221px;
+}
+
+.test-text1,
+.test-text2 {
+    display: block;
+}
+
+.test-text::before {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 69px;
+    background: #F16D7F;
+    position: absolute;
+    left: 0;
+    top: 7px;
+    bottom: 0;
+}
+
+.test-text1 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 0;
+}
+
+.test-text2 {
+    color: #222222;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.test-text3 {
+    margin-left: 9px;
+    color: #F16D7F;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.other {
+    height: 100px;
+    background: lightgreen;
+    margin-top: 100px;
 }
