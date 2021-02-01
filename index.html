@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
-integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-   <!--<script src="https://use.fontawesome.com/e5c8d8065d.js"></script>-->
+   <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">-->
+ <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+  
   </head>
 
 <body>
@@ -18,7 +19,7 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
             <a class="header-logo" href="#"> <img src="img/Logo.png" alt="Logo"> <span class="brand">BRAN<span class="brand-D">D</span></span>
             </a>
             <form class="header-form" action="#">
-                <button class="browse">Browse</button>
+                <button class="browse"><span class="header__textBrowse">Browse</span><i class="header__arrow fas fa-sort-down"></i></button>
                 <input class="search" type="text" placeholder="Search for item..."> <img class="icon1" src="img/Icon1.svg" alt="Icon"> </form>
             <div class="header-buttons">
                 <button class="cart"><img src="img/Cart.svg" alt="Cart"></button>
@@ -26,14 +27,14 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
             </div>
         </div>
     </header>
-    <nav class="navigationFirst"> <a href="#">HOME</a> <a href="#">MAN</a> <a href="#">WOMEN</a> <a href="#">KIDS</a> <a href="#">ACCESORIES</a> <a href="#">FEATURED</a> <a href="#">HOT DEALS</a> </nav>
+    <nav class="navigationFirst"> <a href="#">HOME</a> <a href="product.html">MAN</a> <a href="checkout.html">WOMEN</a> <a href="#">KIDS</a> <a href="#">ACCESORIES</a> <a href="#">FEATURED</a> <a href="#">HOT DEALS</a> </nav>
     <div class="block1-wrapper">
         <div class="block1 container">
             <div class="block1-text"> <span class="block1-text1">THE BRAND</span> <span class="block1-text2">OF LUXERIOUS<span class="block1-text3">FASHION</span></span>
             </div>
         </div>
     </div>
-    <div class="block2 container">
+    <section class="block2 container">
         <div class="block2-left">
             <div class="block2-up"> <img src="img/Man.jpg" alt="Product">
                 <div class="block2-text men"> <span class="block2-text1">HOT DEAL</span> <span class="block2-text2">FOR MEN</span> </div>
@@ -50,7 +51,7 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
                 <div class="block2-text kids"> <span class="block2-text1">NEW ARRIVALS</span> <span class="block2-text2">FOR KIDS</span> </div>
             </div>
         </div>
-    </div>
+    </section>
     <section class="container"> <span class="featuredItems">Featured Items</span> <span class="shopForItems">Shop for items based on what we featured in this week</span>
         <div class="block3">
             <figure class="block3-card"> <img src="img/card1.jpg" alt="Mango">
@@ -102,7 +103,7 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
                 <div class="cardHoverCart"> <img src="img/cartWhite.svg" alt="Cart"> <span class="addToCart">Add to cart</span> </div>
             </figure>
             <form class="block3-form" action="#">
-                <button class="mango-button">Browse All Product<i class="featuredItems__arrow fas fa-long-arrow-alt-right"></i></button>
+                <button class="mango-button"><a class="goods__link" href="product.html">Browse All Product<i class="goods__arrow fas fa-long-arrow-alt-right"></i></a></button>
             </form>
         </div>
     </section>
@@ -117,7 +118,7 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
         </article>
     </section>
     <section class="communication">
-        <div class="communication__wrapper">
+        <div class="communication__wrapper container">
             <article class="communication__left"> <img class="communication__left_BinBurhan" src="img/Face1.jpg" alt="BinBurhan">
                 <p class="communication__left_speach">«Vestibulum quis porttitor dui! Quisque viverra nunc&nbsp;mi, a&nbsp;pulvinar purus condimentum&nbsp;a. Aliquam condimentum mattis neque sed pretium”</p> <span class="communication__left_name">Bin Burhan</span><span class="communication__left_city">Dhaka, Bd</span>
                 <div class="communication__pagination">
@@ -171,14 +172,14 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
         <footer class="footerDown">
             <span class="footerDown__copyRight">&copy 2017 Brand All Rights Reserved</span>
             <div class="footerDown__socials">
-            	<i class="footerDown__socialItem fab fa-facebook-f"></i>
-            	<i class="footerDown__socialItem fab fa-twitter"></i>
-            	<i class="footerDown__socialItem fab fa-instagram"></i>
-            	<i class="footerDown__socialItem fab fa-pinterest-p"></i>
-            	<i class="footerDown__socialItem fab fa-google-plus-g"></i>
+            <i class="footerDown__socialItem fab fa-facebook-f"></i>
+            <i class="footerDown__socialItem fab fa-twitter"></i>
+            <i class="footerDown__socialItem fab fa-instagram"></i>
+            <i class="footerDown__socialItem fab fa-pinterest-p"></i>
+            <i class="footerDown__socialItem fab fa-google-plus-g"></i>
             </div>
             
-    	</footer>
+    </footer>
     
 </body>
 
