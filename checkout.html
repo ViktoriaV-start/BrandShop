@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>BranD Checkout</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400&display=swap" rel="stylesheet">
+    
+   <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">-->
+   <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+  </head>
+
+<body>
+    <header class="line-top">
+        <div class="headerFirst container">
+            <a class="header-logo" href="index.html"> <img src="img/Logo.png" alt="Logo"> <span class="brand">BRAN<span class="brand-D">D</span></span>
+            </a>
+            <form class="header-form" action="#">
+                <button class="browse"><span class="header__textBrowse">Browse</span><i class="header__arrow fas fa-sort-down"></i></button>
+                <input class="search" type="text" placeholder="Search for item..."> <img class="icon1" src="img/Icon1.svg" alt="Icon"> </form>
+            <form class="header-buttons" action="#">
+                <button class="cart"><img src="img/Cart.svg" alt="Cart"></button>
+                <button class="myAccount" type="submit">My Account</button>
+            </form>
+        </div>
+    </header>
+    
+    <nav class="navigationFirst"> <a href="index.html">HOME</a> <a href="product.html">MAN</a> <a href="#" class="navigationFirst__activePage">WOMEN</a> <a href="#">KIDS</a> <a href="#">ACCESORIES</a> <a href="#">FEATURED</a> <a href="#">HOT DEALS</a> </nav>
+    
+    <section class="newArrivals">
+       <div class="newArrivals__info container">
+           <span class="newArrivals__heading">NEW ARRIVALS</span><a class="newArrivals__link" href="#"><span class="newArrivals__nav newArrivals__nav_moveToRight">HOME / </span></a><a href="#" class="newArrivals__link"><span class="newArrivals__nav">MEN / </span></a><a href="#" class="newArrivals__link"><span class="newArrivals__nav_colored">NEW ARRIVALS</span></a>     
+       </div>
+    </section>
+    <main class="orderInfo container">
+    <section class="shipping">
+        <span class="shipping__header">01.</span>
+        <span class="shipping__header shipping__header_mrgLeft ">SHIPPING ADDRESS</span>
+        <form class="shipping__account" action="#">
+
+            <fieldset class="shipping__buyerStatus">
+                <legend class="shipping__checking shipping__text_fontSize13Dark">CHECK AS A GUEST OR REGISTER</legend>
+                <p class="shipping__text_fontSize13Light">Register with us for future convenience</p>
+
+                <div class="shipping__chooseStatus shipping__check_mgTop">
+                    <label for="radio" class="shipping__radioTitle">
+                    
+                        <input name="radioBtn" type="radio" class="shipping__radioCheck" id="radio"><div class="fakeChbx"></div><span class="shipping__checkOutGuest shipping__text_fontSize12Dark">CHECKOUT AS GUEST</span>
+                        
+                    </label>
+                   
+                </div>
+                
+                <div class="shipping__chooseStatus shipping__reg_mgTop">
+                    <label for="radioReg" class="shipping__radioTitleReg">
+                    
+                        <input name="radioBtn" type="radio" class="shipping__radioReg" id="radioReg">
+                        <div class="fakeChbxReg"></div>
+                        <span class="shipping__checkOutGuest shipping__text_fontSize12Dark">REGISTER</span>
+                        
+                    </label>
+                </div>
+
+
+                <p class="shipping__saveTime_mg shipping__text_fontSize13Dark">REGISTER AND SAVE TIME!</p>
+                <p class="shipping__text_fontSize13Light">Register with us for future convenience</p>
+                <p class="shipping__text_mrgTop shipping__text_fontSize13Light">Fast and easy checkout</p>
+                <p class="shipping__text_fontSize13Light">Easy access to your order history and status</p>
+                <button class="shipping__button shipping__button_fontSize14Dark shipping__buttonContinue_mgTop" type="submit">CONTINUE</button>
+            </fieldset>
+
+            <fieldset class="shipping__logIn">
+                <legend class="shipping__entering shipping__text_fontSize13Dark">ALREADY REGISTERED?</legend>
+
+                <p class="shipping__text_fontSize13Light">Please log in below</p>
+                <p class="shipping_emailAdr_mgTop shipping__text_fontSize12Dark">EMAIL ADDRESS<span class="shipping_textSpec">*</span></p>
+
+                <input type="email" name="emailClient" class="shipping__emailInput shipping__emailInput_mgTop shipping__text_fontSize12Dark" required>
+
+                <p class="shipping_password_mgTop shipping__text_fontSize12Dark">PASSWORD<span class="shipping_textSpec">*</span></p>
+
+                <input type="password" name="passwordClient" class="shipping__passwordInput shipping__passowrdInput_mgTop shipping__text_fontSize12Dark" required>
+
+                <p class="shipping_requiredFields_mgTop shipping__text_fontColored">*Required Fields</p>
+
+                <button class="shipping__button shipping__button_fontSize14Dark shipping__buttonLogIn_mgTop" type="submit">LOG IN</button>
+                <a href="#" class="shipping_forgotLink shipping_forgotLink_mrgLeft shipping__text_fontSize14Dark">Forgot Password?</a>
+            </fieldset>
+
+        </form>
+    </section>
+           
+     <section class="billing">
+        <button class="billing__billingInformation" type="submit">
+        <span class="billing__header">02.</span>
+        <span class="billing__header billing__header_mrgLeft ">BILLING INFORMATION</span>
+        </button>
+     </section>
+    
+    <section class="shippingInfo">
+        <button class="shippingInfo__shippingInformation" type="submit">
+        <span class="shippingInfo__header">03.</span>
+        <span class="shippingInfo__header shippingInfo__header_mrgLeft ">SHIPPING INFORMATION</span>
+        </button>
+     </section>
+     <section class="shippingMethod">
+        <button class="shippingMethod__shippingMethod" type="submit">
+        <span class="shippingMethod__header">04.</span>
+        <span class="shippingMethod__header shippingMethod__header_mrgLeft ">SHIPPING METHOD</span>
+        </button>
+     </section>
+     <section class="paymentMethod">
+        <button class="paymentMethod__paymentMethod" type="submit">
+        <span class="paymentMethod__header">05.</span>
+        <span class="paymentMethod__header paymentMethod__header_mrgLeft ">PAYMENT METHOD</span>
+        </button>
+     </section>
+     <section class="order">
+        <button class="order__orderReview" type="submit">
+        <span class="order__header">06.</span>
+        <span class="order__header order__header_mrgLeft ">ORDER REVIEW</span>
+        </button>
+     </section>
+ </main>
+
+
+
+    <section class="communication">
+        <div class="communication__wrapper container">
+            <article class="communication__left"> <img class="communication__left_BinBurhan" src="img/Face1.jpg" alt="BinBurhan">
+                <p class="communication__left_speach">«Vestibulum quis porttitor dui! Quisque viverra nunc&nbsp;mi, a&nbsp;pulvinar purus condimentum&nbsp;a. Aliquam condimentum mattis neque sed pretium”</p> <span class="communication__left_name">Bin Burhan</span><span class="communication__left_city">Dhaka, Bd</span>
+                <div class="communication__pagination">
+                    <a href="#" class="communication__pagination_line"></a>
+                    <a href="#" class="communication__pagination_line communication__pagination_lineActive"></a>
+                    <a href="#" class="communication__pagination_line"></a>
+                </div>
+            </article>
+            <article class="communication__right"> <span class="communication__right_subscribe">Subscribe</span> <span class="communication__right_newLetter">FOR OUR NEWLETTER AND PROMOTION</span>
+                <form class="communication__right_form" action="#">
+                    <input class="communication__right_enterEmail" type="text" placeholder=" Enter Your Email"><input class="communication__right_button" type="submit" value="Subscribe"> </form> <!--ВНИМАНИЕ! ДЕРЖИ ДВА ИНПУТА ВМЕСТЕ БЕЗ ПЕРЕНОСА НА ДРУГУЮ СТРОКУ, ЧТОБЫ НЕ БЫЛО РАЗРЫВА МЕЖДУ ФОРМАМИ!!!-->
+            </article>
+        </div>
+    </section>
+  
+        <footer class="footerUp container">
+            <div class="footerUp__left">
+                <a class="header-logo" href="index.html"> <img src="img/Logo.png" alt="Logo"> <span class="brand">BRAN<span class="brand-D">D</span></span>
+                </a>
+                <p class="footerUp__info">Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go&nbsp;forward benefits. Intrinsicly syndicate an&nbsp;expanded array of&nbsp;processes and cross-unit partnerships.</p>
+                <p class="footerUp__info">Efficiently plagiarize 24/365 action items and focused infomediaries. Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
+            </div>
+            <div class="footerUp__right">
+                <div class="footerUp__menu"> 
+                    <span class="footerUp__header">COMPANY</span> 
+                    <a href="#" class="footerUp__point">Home</a> 
+                    <a href="" class="footerUp__point">Shop</a> 
+                    <a href="#" class="footerUp__point">About</a> 
+                    <a href="#" class="footerUp__point">How It Works</a> 
+                    <a href="#" class="footerUp__point">Contact</a> 
+                </div>
+                
+                <div class="footerUp__menu">
+                    <span class="footerUp__header">INFORMATION</span> 
+                    <a href="#" class="footerUp__point">Tearms & Condition</a> 
+                    <a href="#" class="footerUp__point">Privacy Policy</a> 
+                    <a href="#" class="footerUp__point">How to Buy</a> 
+                    <a href="#" class="footerUp__point">How to Sell</a> 
+                    <a href="#" class="footerUp__point">Promotion</a> 
+                </div>
+                <div class="footerUp__menu">
+                    <span class="footerUp__header">SHOP CATEGORY</span> 
+                    <a href="#" class="footerUp__point">Men</a> 
+                    <a href="#" class="footerUp__point">Women</a> 
+                    <a href="#" class="footerUp__point">Child</a> 
+                    <a href="#" class="footerUp__point">Apparel</a> 
+                    <a href="#" class="footerUp__point">Browse All</a> 
+                </div>
+            </div>
+        </footer>
+        <footer class="footerDown">
+            <span class="footerDown__copyRight">&copy 2017 Brand All Rights Reserved</span>
+            <div class="footerDown__socials">
+            <i class="footerDown__socialItem fab fa-facebook-f"></i>
+            <i class="footerDown__socialItem fab fa-twitter"></i>
+            <i class="footerDown__socialItem fab fa-instagram"></i>
+            <i class="footerDown__socialItem fab fa-pinterest-p"></i>
+            <i class="footerDown__socialItem fab fa-google-plus-g"></i>
+            </div>
+            
+    </footer>
+    
+</body>
+
+</html>
