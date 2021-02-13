@@ -519,6 +519,7 @@ body {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .featuredItems__arrow {
     color: white;
     font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
@@ -545,7 +546,18 @@ body {
     margin-left: 15px;
 }
 
+<<<<<<< HEAD
 >>>>>>> Homework4
+=======
+
+.featuredItems__arrow {
+    color: white;
+    font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+    margin-left: 15px;
+}
+
+
+>>>>>>> 33f87093147d0198fd40bc63417950075b059633
 .block4 {
     display: flex;
     justify-content: strech;
@@ -555,6 +567,7 @@ body {
 .block4-left {
     background-image: url(img/snow.jpg);
     width: 765px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
 
@@ -600,6 +613,9 @@ body {
     font-weight: bold;
     line-height: 1.2;
 =======
+=======
+
+>>>>>>> 33f87093147d0198fd40bc63417950075b059633
 }
 
 .block4-right {
@@ -1105,12 +1121,217 @@ body {
     font-size: 13px;
     color: rgb(34, 34, 34);
     text-transform: uppercase;
+<<<<<<< HEAD
 >>>>>>> Homework4
+=======
+}
+
+.block4-right {
+    width: 375px;
+    height: 529px;
+    background-color: rgb(34, 34, 36);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.block4-text {
+    padding-left: 38px;
+    padding-top: 144px;
+    padding-bottom: 275px;
+}
+
+.block4-text1,
+.block4-text3 {
+    display: block;
+}
+
+.block4-text1 {
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.block4-text2 {
+    font-size: 60px;
+    color: #F16D7F;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.block4-text3 {
+    font-size: 32px;
+    color: #F16D7F;
+    font-weight: bold;
+    line-height: 1.2;
+>>>>>>> 33f87093147d0198fd40bc63417950075b059633
     text-align: left;
     padding-bottom: 16px;
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+.mango-down {
+    font-size: 16px;
+    color: rgb(241, 109, 127);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.productSelection__card {
+    position: relative;
+    margin-bottom: 39px;
+}
+
+
+/*
+.cardHover {
+    position: absolute;
+    background-color: rgba(58, 56, 56, 0.831);
+    top: 0;
+    bottom: 81px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    opacity: 1.5;
+    display: none;
+}
+
+.cardHoverCart {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    top: 98px;
+    left: 71px;
+    z-index: 2;
+    width: 122px;
+    border: 1px solid #fff;
+    padding: 5px;
+}
+
+.addToCart {
+    font-size: 13px;
+    color: #fff;
+    padding-left: 8px;
+}*/
+
+.productSelection__card:hover .cardHover,
+.productSelection__card:hover .cardHoverCart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productSelection__card:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.16);
+}
+
+.productSelection__nav {
+    margin-left: 294px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.productSelection__page {
+    display: flex;
+    width: 262px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productSelection__pagination {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(111, 110, 110);
+}
+
+.productSelection__pagination_active {
+    color: rgb(239, 91, 112);
+}
+
+.productSelection__pagination:hover {
+    color: rgb(239, 91, 112);
+}
+
+.productSelection__paginationButton {
+    font-size: 16px;
+    color: rgb(239, 91, 112);
+    border-color: rgb(239, 91, 112);
+    padding: 15px 45px 15px 45px;
+    background-color: white;
+}
+
+.productSelection__paginationButton:hover {
+    color: white;
+    background-color: rgb(239, 91, 112);
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.16);
+}
+
+.productSelection__paginationButton:focus {
+    outline: none;
+}
+
+.productSelection {
+    margin-bottom: 112px;
+}
+
+.shopInfo {
+    background-color: rgb(34, 34, 36);
+}
+
+.shopInfo__wrapper {
+    padding-top: 86px;
+    padding-bottom: 110px;
+}
+
+.shopInfo-pic {
+    margin-left: 168px;
+}
+
+.shopInfo-pic:not(:last-of-type) {
+    margin-right: 168px;
+}
+
+.shopInfo__header {
+    margin-top: 15px;
+}
+
+.shopInfo__header_font {
+    font-size: 20px;
+    color: rgb(251, 251, 251);
+    font-weight: bold;
+}
+
+.shopInfo__headerDelivery {
+    margin-left: 118px;
+}
+
+.shopInfo__headerSales {
+    margin-left: 244px;
+}
+
+.shopInfo__headerQuality {
+    margin-left: 223px;
+}
+
+.shopInfo__info {
+    display: flex;
+    margin-top: 15px;
+}
+
+.shopInfo__text {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+
+>>>>>>> 33f87093147d0198fd40bc63417950075b059633
 .block4-rightText {
     padding-left: 113px;
     padding-right: 42px;
@@ -1371,6 +1592,7 @@ body {
 .footerDown__socialItem:hover {
     background-color: rgb(241, 109, 127);
     color: white;
+<<<<<<< HEAD
 =======
 .mango-down {
     font-size: 16px;
@@ -1527,4 +1749,6 @@ body {
     padding-left: 30px;
     padding-right: 30px;
 >>>>>>> Homework4
+=======
+>>>>>>> 33f87093147d0198fd40bc63417950075b059633
 }
