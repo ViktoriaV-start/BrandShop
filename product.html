@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>BranD Product</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+   <!--<script src="https://use.fontawesome.com/e5c8d8065d.js"></script>-->
+  </head>
+
+<body>
+    <header class="line-top">
+        <div class="headerFirst container">
+            <a class="header-logo" href="index.html"> <img src="img/Logo.png" alt="Logo"> <span class="brand">BRAN<span class="brand-D">D</span></span>
+            </a>
+            <form class="header-form" action="#">
+                <button class="browse">Browse</button>
+                <input class="search" type="text" placeholder="Search for item..."> <img class="icon1" src="img/Icon1.svg" alt="Icon"> </form>
+            <form class="header-buttons" action="#">
+                <button class="cart"><img src="img/Cart.svg" alt="Cart"></button>
+                <button class="myAccount" type="submit">My Account</button>
+            </form>
+        </div>
+    </header>
+    
+    <nav class="navigationFirst"> <a href="#">HOME</a> <a class="navigationFirst__activePage" href="#">MAN</a> <a href="#">WOMEN</a> <a href="#">KIDS</a> <a href="#">ACCESORIES</a> <a href="#">FEATURED</a> <a href="#">HOT DEALS</a> </nav>
+    
+    <section class="newArrivals">
+       <div class="newArrivals__info container">
+           <span class="newArrivals__heading">NEW ARRIVALS</span><a class="newArrivals__link" href="#"><span class="newArrivals__nav newArrivals__nav_moveToRight">HOME / </span></a><a href="#" class="newArrivals__link"><span class="newArrivals__nav">MEN / </span></a><a href="#" class="newArrivals__link"><span class="newArrivals__nav_colored">NEW ARRIVALS</span></a>
+           
+       </div>
+    </section>
+    <main class="forMan">
+    <section class="productSelection container">
+       <div class="productSelection__filter">
+           <div class="productSelection__header">
+               <span class="productSelection__headPoint">TRENDING NOW</span>
+               <span class="productSelection__headPoint">SIZE</span>
+               <span class="productSelection__headPoint">PRICE</span>
+           </div>
+           
+            <div class="productSelection__select">
+               
+            
+                    <form class="productSelection__formCollection" action="#">
+                        <button class="productSelection__collectPoint productSelection__select_font" type="submit">Bohemian</button>
+                        <span class="productSelection__select_font">   |   </span>
+                        <button class="productSelection__collectPoint productSelection__select_font" type="submit">Floral</button>
+                        <span class="productSelection__select_font">   |   </span>
+                        <button class="productSelection__collectPoint productSelection__select_font" type="submit">Lace</button>
+                <button class="productSelection__collectPoint productSelection__select_font" type="submit">Floral</button>
+                <span class="productSelection__select_font">   |   </span>
+                <button class="productSelection__collectPoint productSelection__select_font" type="submit">Lace</button>
+                <span class="productSelection__select_font">   |   </span>
+                <button class="productSelection__collectPoint productSelection__select_font" type="submit">Bohemian</button>
+            </form>
+         
+           
+            <form class="productSelection__formSize" action="#">
+                    <input type="checkbox" class="productSelection__size"><span class="productSelection__select_font">XXS</span>
+                    <input type="checkbox" class="productSelection__size"><span class="productSelection__select_font">XS</span>
+                    <input type="checkbox" class="productSelection__size"><span class="productSelection__select_font">S</span>
+                    <input type="checkbox" class="productSelection__size"><span class="productSelection__select_font">M</span>
+                    <input type="checkbox" class="productSelection__size"><span class="productSelection__select_font">L</span>
+                    <input type="checkbox" class="productSelection__size"><span class="productSelection__select_font">XL</span>
+                    <input type="checkbox" class="productSelection__size"><span class="productSelection__select_font">XXL</span>
+                </form>
+            <form class="productSelection__formPrice" action="#">
+                
+                <div class="productSelection__range">
+                    <div class="productSelection__rangeControl">
+                        <div class="sproductSelection__scale">
+                            <div class="productSelection__bar"></div>
+                        </div>
+                            <div class="productSelection__toggle productSelection__toggleMin" tabindex="0"></div>
+                            <div class="productSelection__toggle productSelection__toggleMax" tabindex="0"></div>
+                    </div>
+                </div>
+                
+                <span class="productSelection__select_font productSelection__minPrice">$52</span>
+                <span class="productSelection__select_font productSelection__maxPrice">$400</span>
+            </form>
+           </div>
+           
+           <form class="productSelection__sorting" action="#">
+                 <input class="productSelection__button productSelection__select_font productSelection__sortBy_wdth" type="submit" value="Sort By"><select class="productSelection__button productSelection__select_font productSelection__name_wdth">Sort By
+                   <option value="">Name</option>
+                   <option>Recommended</option>
+                   <option>Newest</option>
+                   <option>Lowest price</option>
+                   <option>Highest price</option>
+                </select>
+                <input class="productSelection__button productSelection__select_font productSelection__show_wdth" type="submit" value="Show"><select class="productSelection__button productSelection__select_font productSelection__num_wdth">Show
+                   <option value="">09</option>
+                   <option>18</option>
+                   <option>27</option>
+                   <option>36</option>
+                </select>
+           </form>
+           
+       </div>
+
+        <section class="productSelection__groupCards_wrapper">
+        <div class="productSelection__groupCards">
+            <figure class="productSelection__card"> <img src="img/productSelection1.jpg" alt="Mango">
+                <figcaption class="productSelection__mango">
+                    <h3 class="mango-top">MANGO PEOPLE T-SHIRT</h3> <span class="mango-down">$52.00</span></figcaption>
+                <div class="cardHover"></div>
+                <form action=#><button type="submit" class="cardHoverCart"> <img src="img/cartWhite.svg"> <span class="addToCart">Add to cart</span> </button></form>
+            </figure>
+            <figure class="productSelection__card"><img src="img/productSelection2.jpg" alt="Mango">
+                <figcaption class="productSelection__mango">
+                    <h3 class="mango-top">MANGO PEOPLE T-SHIRT</h3> <span class="mango-down">$52.00</span></figcaption>
+                <div class="cardHover"></div>
+                <form action="#"><button class="cardHoverCart"> <img src="img/cartWhite.svg" alt="Cart"> <span class="addToCart">Add to cart</span> </button></form>
+            </figure>
+            <figure class="productSelection__card"><img src="img/card3.jpg" alt="Mango">
+                <figcaption class="productSelection__mango">
+                    <h3 class="mango-top">MANGO PEOPLE T-SHIRT</h3> <span class="mango-down">$52.00</span></figcaption>
+                <div class="cardHover"></div>
+                <form action="#"><button class="cardHoverCart"> <img src="img/cartWhite.svg" alt="Cart"> <span class="addToCart">Add to cart</span> </button></form>
+            </figure>
+            <figure class="productSelection__card"><img src="img/productSelection4.jpg" alt="Mango">
+                <figcaption class="productSelection__mango">
+                    <h3 class="mango-top">MANGO PEOPLE T-SHIRT</h3> <span class="mango-down">$52.00</span></figcaption>
+                <div class="cardHover"></div>
+                <form action="#"><button class="cardHoverCart"> <img src="img/cartWhite.svg" alt="Cart"> <span class="addToCart">Add to cart</span> </button></form>
+            </figure>
+            <figure class="productSelection__card"><img src="img/card8.jpg" alt="Mango">
+                <figcaption class="productSelection__mango">
+                    <h3 class="mango-top">MANGO PEOPLE T-SHIRT</h3> <span class="mango-down">$52.00</span></figcaption>
+                <div class="cardHover"></div>
+                <form action="#"><button class="cardHoverCart"> <img src="img/cartWhite.svg" alt="Cart"> <span class="addToCart">Add to cart</span> </button></form>
+            </figure>
+            <figure class="productSelection__card"><img src="img/productSelection6.jpg" alt="Mango">
+                <figcaption class="productSelection__mango">
+                    <h3 class="mango-top">MANGO PEOPLE T-SHIRT</h3> <span class="mango-down">$52.00</span></figcaption>
+                <div class="cardHover"></div>
+                <form action="#"><button class="cardHoverCart"> <img src="img/cartWhite.svg" alt="Cart"> <span class="addToCart">Add to cart</span> </button></form>
+            </figure>
+            <figure class="productSelection__card"><img src="img/card6.jpg" alt="Mango">
+                <figcaption class="productSelection__mango">
+                    <h3 class="mango-top">MANGO PEOPLE T-SHIRT</h3> <span class="mango-down">$52.00</span></figcaption>
+                <div class="cardHover"></div>
+                <form action="#"><button class="cardHoverCart"> <img src="img/cartWhite.svg" alt="Cart"> <span class="addToCart">Add to cart</span> </button></form>
+            </figure>
+            <figure class="productSelection__card"><img src="img/productSelection8.jpg" alt="Mango">
+                <figcaption class="productSelection__mango">
+                    <h3 class="mango-top">MANGO PEOPLE T-SHIRT</h3> <span class="mango-down">$52.00</span></figcaption>
+                <div class="cardHover"></div>
+                <form action="#"><button class="cardHoverCart"> <img src="img/cartWhite.svg" alt="Cart"> <span class="addToCart">Add to cart</span> </button></form>
+            </figure>
+            <figure class="productSelection__card"><img src="img/productSelection9.jpg" alt="Mango">
+                <figcaption class="productSelection__mango">
+                    <h3 class="mango-top">MANGO PEOPLE T-SHIRT</h3> <span class="mango-down">$52.00</span></figcaption>
+                <div class="cardHover"></div>
+                <form action="#"><button class="cardHoverCart"> <img src="img/cartWhite.svg" alt="Cart"> <span class="addToCart">Add to cart</span> </button></form>
+            </figure>
+           
+        </div>
+        
+        <div class="productSelection__nav">
+            <div class="productSelection__page">
+                <a href="#" class="productSelection__pagination"><i class="fas fa-chevron-left"></i></a>
+                <a href="#" class="productSelection__pagination productSelection__pagination_active">1</a>
+                <a href="#" class="productSelection__pagination">2</a>
+                <a href="#" class="productSelection__pagination">3</a>
+                <a href="#" class="productSelection__pagination">4</a>
+                <a href="#" class="productSelection__pagination">5</a>
+                <a href="#" class="productSelection__pagination">6</a>
+                <a href="#" class="productSelection__pagination">.....</a>
+                <a href="#" class="productSelection__pagination">20</a>
+                <a href="#" class="productSelection__pagination productSelection__pagination_active"><i class="fas fa-chevron-right"></i></a>
+            </div>
+            <button class="productSelection__paginationButton" type="submit">View All</button>
+        </div>
+        
+    
+    </section>
+    
+    </section>
+        
+    </main>
+           
+    <section class="shopInfo">
+       <div class="shopInfo__wrapper container">
+            <img class="shopInfo-pic" src="img/Forma1.svg" alt="Picture">
+            <img class="shopInfo-pic" src="img/Forma2.svg" alt="Picture">
+            <img class="shopInfo-pic" src="img/Forma3.svg" alt="Picture">
+            
+        <div class="shopInfo__header">
+            <span class="shopInfo__headerDelivery shopInfo__header_font">Free Delivery</span>
+            <span class="shopInfo__headerSales shopInfo__header_font">Sales & discounts</span>
+            <span class="shopInfo__headerQuality shopInfo__header_font">Quality assurance</span>
+        </div>
+        
+        <article class="shopInfo__info">
+           
+             <span class="shopInfo__text shopInfo__text_font">Worldwide delivery on all. Authorit atively morph next-generation innovation with extensive models.</span>
+            
+             <span class="shopInfo__text shopInfo__text_font">Worldwide delivery on all. Authorit atively morph next-generation innovation with extensive models.</span>
+            
+            <span class="shopInfo__text shopInfo__text_font">Worldwide delivery on all. Authorit atively morph next-generation innovation with extensive models.</span>
+            
+        </article>
+        </div>
+    </section>    
+    
+    <section class="communication">
+        <div class="communication__wrapper">
+            <article class="communication__left"> <img class="communication__left_BinBurhan" src="img/Face1.jpg" alt="BinBurhan">
+                <p class="communication__left_speach">«Vestibulum quis porttitor dui! Quisque viverra nunc&nbsp;mi, a&nbsp;pulvinar purus condimentum&nbsp;a. Aliquam condimentum mattis neque sed pretium”</p> <span class="communication__left_name">Bin Burhan</span><span class="communication__left_city">Dhaka, Bd</span>
+                <div class="communication__pagination">
+                    <a href="#" class="communication__pagination_line"></a>
+                    <a href="#" class="communication__pagination_line communication__pagination_lineActive"></a>
+                    <a href="#" class="communication__pagination_line"></a>
+                </div>
+            </article>
+            <article class="communication__right"> <span class="communication__right_subscribe">Subscribe</span> <span class="communication__right_newLetter">FOR OUR NEWLETTER AND PROMOTION</span>
+                <form class="communication__right_form" action="#">
+                    <input class="communication__right_enterEmail" type="text" placeholder=" Enter Your Email"><input class="communication__right_button" type="submit" value="Subscribe"> </form> <!--ВНИМАНИЕ! ДЕРЖИ ДВА ИНПУТА ВМЕСТЕ БЕЗ ПЕРЕНОСА НА ДРУГУЮ СТРОКУ, ЧТОБЫ НЕ БЫЛО РАЗРЫВА МЕЖДУ ФОРМАМИ!!!-->
+            </article>
+        </div>
+    </section>
+  
+        <footer class="footerUp container">
+            <div class="footerUp__left">
+                <a class="header-logo" href="index.html"> <img src="img/Logo.png" alt="Logo"> <span class="brand">BRAN<span class="brand-D">D</span></span>
+                </a>
+                <p class="footerUp__info">Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go&nbsp;forward benefits. Intrinsicly syndicate an&nbsp;expanded array of&nbsp;processes and cross-unit partnerships.</p>
+                <p class="footerUp__info">Efficiently plagiarize 24/365 action items and focused infomediaries. Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
+            </div>
+            <div class="footerUp__right">
+                <div class="footerUp__menu"> 
+                    <span class="footerUp__header">COMPANY</span> 
+                    <a href="#" class="footerUp__point">Home</a> 
+                    <a href="" class="footerUp__point">Shop</a> 
+                    <a href="#" class="footerUp__point">About</a> 
+                    <a href="#" class="footerUp__point">How It Works</a> 
+                    <a href="#" class="footerUp__point">Contact</a> 
+                </div>
+                
+                <div class="footerUp__menu">
+                    <span class="footerUp__header">INFORMATION</span> 
+                    <a href="#" class="footerUp__point">Tearms & Condition</a> 
+                    <a href="#" class="footerUp__point">Privacy Policy</a> 
+                    <a href="#" class="footerUp__point">How to Buy</a> 
+                    <a href="#" class="footerUp__point">How to Sell</a> 
+                    <a href="#" class="footerUp__point">Promotion</a> 
+                </div>
+                <div class="footerUp__menu">
+                    <span class="footerUp__header">SHOP CATEGORY</span> 
+                    <a href="#" class="footerUp__point">Men</a> 
+                    <a href="#" class="footerUp__point">Women</a> 
+                    <a href="#" class="footerUp__point">Child</a> 
+                    <a href="#" class="footerUp__point">Apparel</a> 
+                    <a href="#" class="footerUp__point">Browse All</a> 
+                </div>
+            </div>
+        </footer>
+        <footer class="footerDown">
+            <span class="footerDown__copyRight">&copy 2017 Brand All Rights Reserved</span>
+            <div class="footerDown__socials">
+            <i class="footerDown__socialItem fab fa-facebook-f"></i>
+            <i class="footerDown__socialItem fab fa-twitter"></i>
+            <i class="footerDown__socialItem fab fa-instagram"></i>
+            <i class="footerDown__socialItem fab fa-pinterest-p"></i>
+            <i class="footerDown__socialItem fab fa-google-plus-g"></i>
+            </div>
+            
+    </footer>
+    
+</body>
+
+</html>
